@@ -30,4 +30,9 @@ void print_list(const listint_t *list);
 /* 0. Bubble sort */
 void bubble_sort(int *array, size_t size);
 
+/* 1. insertion_sort_list */
+
+void insertion_sort_list(listint_t **list);
+void swap_nodes(listint_t **h, listint_t **first_node, listint_t *second_node);
+
 #endif
