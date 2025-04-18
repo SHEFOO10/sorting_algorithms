@@ -5,7 +5,9 @@
  * insertion_sort_list - sorts a doubly linked list of integers
  *		in ascending order
  *		using the Insertion sort algorithm.
- *
+ * description: mark the first element as sorted
+ *              then start from the second index and compare between the nodes
+ *              after the first iteration comparing will be on previous nodes
  * @list: doubly linked list.
  */
 
