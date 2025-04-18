@@ -3,7 +3,10 @@
 #include <stdio.h>
 /**
  * selection_sort - sorts an array of integers in ascending order.
- *
+ * Description: Selection sort goes through the list,
+ *              keeps finding the smallest number ahead,
+ *              and swaps it with the current one to slowly sort everything
+ *              from the front
  * @array: array.
  * @size: size of the array.
  */
